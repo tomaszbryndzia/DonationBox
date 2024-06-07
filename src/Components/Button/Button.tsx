@@ -3,7 +3,7 @@ import React from "react";
 
 import { cn } from "utils";
 
-const buttonVariants = cva("py-4 px-92px rounded-lg", {
+const buttonVariants = cva("py-4 xs:px-92px rounded-lg", {
   variants: {
     variant: {
       default:

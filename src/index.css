@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #f4f8fa;
+}
+
+.App {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
