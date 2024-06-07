@@ -20,6 +20,9 @@ module.exports = {
       "grey-focus": "#E8EAF2",
     },
     extend: {
+      height: {
+        navbar: "80px",
+        "60px": "60px",
       },
       maxWidth: {
         600: "600px",
