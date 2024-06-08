@@ -1,5 +1,7 @@
+import { useEffect, useState } from "react";
 import { Form } from "./Form";
 import { Header } from "./Header";
+import useIsMobileScreen from "./useIsMobileScreen";
 
 export const DonationBox = () => {
   const [isOpen, setIsOpen] = useState(true);

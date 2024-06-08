@@ -11,6 +11,7 @@ module.exports = {
       "pink-light": "#B2A7F4",
       gray: "#888888",
       salmon: "#FFDBCB",
+      "trigger-salmon": "#F2D0C1",
       "midnight-purple": "#423C66",
       "purple-gray": "#474a62",
       stroke: "#e9eef2",
