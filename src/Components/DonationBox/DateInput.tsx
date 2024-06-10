@@ -43,6 +43,7 @@ export const DateInput: React.FC = () => {
           className={`absolute left-2 ${arrowClass}`}
           onClick={decrementDate}
           disabled={isPrevButtonDisabled}
+          aria-label="previous month"
         >
           <FontAwesomeIcon
             icon={faChevronLeft}
@@ -50,7 +51,7 @@ export const DateInput: React.FC = () => {
             className="text-midnight-grey"
           />
         </button>
-        <div className="flex flex-col items-center text-purple-gray">
+        <div className="flex flex-col items-center">
           <span className="text-base leading-5" aria-label="current month">
             {getMonthName(month)}
           </span>
@@ -61,6 +62,7 @@ export const DateInput: React.FC = () => {
         <button
           className={`absolute right-2 ${arrowClass}`}
           onClick={incrementDate}
+          aria-label="next month"
         >
           <FontAwesomeIcon
             icon={faChevronRight}
